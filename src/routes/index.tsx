@@ -1,31 +1,26 @@
-import { A } from "solid-start";
-import Counter from "~/components/Counter";
+import { For } from "solid-js";
+import { A, useRouteData } from "solid-start";
+import { createServerData$ } from "solid-start/server";
+import { getSubjects } from "~/db/subject";
+
+export function routeData() {
+  return createServerData$(async () => await getSubjects());
+}
 
 export default function Home() {
+  const subjects = useRouteData<typeof routeData>();
+
   return (
     <main class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">
-        Hello world!
-      </h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{" "}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
-        >
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
-      </p>
-      <p class="my-4">
-        <span>Home</span>
-        {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{" "}
-      </p>
+      <ul>
+        <For each={subjects()}>
+          {(subject) => (
+            <A href={subject.slug}>
+              <li>{subject.name}</li>
+            </A>
+          )}
+        </For>
+      </ul>
     </main>
   );
 }

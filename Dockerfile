@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN yarn global add pnpm && pnpm i --frozen-lockfile
 
-CMD ["pnpm", "dev", "--port", "80"]
+CMD ["pnpm", "dev", "--port", "80", "--host"]

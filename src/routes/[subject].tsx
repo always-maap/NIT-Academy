@@ -5,7 +5,6 @@ import Container from "~/components/Container";
 import { getSubjectVideos } from "~/db/subject";
 
 export function routeData({ params }: any) {
-  console.log(params);
   return createServerData$(
     async ([_, slug]) => {
       return await getSubjectVideos(slug);

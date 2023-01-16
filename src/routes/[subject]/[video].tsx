@@ -1,19 +1,19 @@
 import { RouteDataArgs, useRouteData } from "solid-start";
 import { createServerData$ } from "solid-start/server";
 import { getVideo } from "~/db/subject";
+import { refetchRouteData } from "solid-start";
 
 export function routeData({ params }: RouteDataArgs) {
   return createServerData$(
     async ([_, id]) => {
-      console.log(id);
-      const x = await getVideo(id);
-      return x;
+      return await getVideo(id);
     },
-    { key: ["subject", params.video] }
+    { key: ["video", params.video] }
   );
 }
 
-export default function VideoSSS() {
+export default function Video() {
+  refetchRouteData(["video"]);
   const video = useRouteData<typeof routeData>();
 
   return (

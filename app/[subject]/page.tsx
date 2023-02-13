@@ -1,4 +1,4 @@
-import subjects from "../../db/subjects.json";
+import subjects from "@/public/db/subjects.json";
 import fs from "node:fs/promises";
 import path from "node:path";
 import Container from "@/components/Container";
@@ -16,17 +16,20 @@ export async function generateStaticParams() {
 }
 
 async function getSubject(subject: string) {
-  const subjectFile = await fs.readFile(
-    path.join(process.cwd(), `./db/subjects/${subject}.json`),
-    "utf8"
+  const subjectFile = await fetch(
+    `http://localhost:3000/db/subjects/${subject}.json`
   );
-  const subjectRes = await JSON.parse(subjectFile);
+  const subjectRes = await subjectFile.json();
   console.log(subjectRes);
 
   return subjectRes;
 }
 
-export default async function Subject({ params: { subject } }: any) {
+export default async function Subject(y: any) {
+  console.log(y);
+  const {
+    params: { subject },
+  } = y;
   const x: any = await getSubject(subject);
 
   return (

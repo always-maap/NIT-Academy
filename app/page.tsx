@@ -4,7 +4,7 @@ import Container from "@/components/Container";
 import Item from "@/components/Item";
 import * as ScrollArea from "@radix-ui/react-scroll-area";
 import Link from "next/link";
-import subjects from "../db/subjects.json";
+import subjects from "@/public/db/subjects.json";
 
 export default function Home() {
   return (

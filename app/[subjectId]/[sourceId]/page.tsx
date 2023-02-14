@@ -1,13 +1,15 @@
-import subjects from "@/db/subjects.json";
-import AllSources from "@/db/sources.json";
-import Container from "@/components/Container";
+import { courses } from "@/db/courses";
 
 type Props = {
-  params: { subjectId: keyof typeof AllSources; sourceId: string };
+  params: { subjectId: string; sourceId: string };
 };
 
 export default function Source({ params: { subjectId, sourceId } }: Props) {
-  const source = AllSources[subjectId].sources.find(
+  if (!Object.hasOwn(courses, subjectId)) {
+    return <div>lol</div>;
+  }
+
+  const source = courses[subjectId as keyof typeof courses]?.sources.find(
     (src) => src.id === sourceId
   );
 

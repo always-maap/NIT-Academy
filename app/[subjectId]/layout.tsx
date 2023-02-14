@@ -1,9 +1,9 @@
 import Container from "@/components/Container";
-import AllSources from "@/db/sources.json";
+import { courses } from "@/db/courses";
 import Link from "next/link";
 
 type Props = {
-  params: { subjectId: keyof typeof AllSources };
+  params: { subjectId: string };
   children: React.ReactNode;
 };
 
@@ -11,15 +11,19 @@ export default function SubjectLayout({
   params: { subjectId },
   children,
 }: Props) {
-  const subject = AllSources[subjectId];
+  if (!Object.hasOwn(courses, subjectId)) {
+    return <div>lol</div>;
+  }
+
+  const course = courses[subjectId as keyof typeof courses];
 
   return (
     <Container>
-      <div className="flex justify-between">
-        <div className="flex flex-col">
-          {subject.sources.map((source) => (
+      <div className="flex justify-between my-4">
+        <div className="flex flex-col bg-black">
+          {course.sources.map((source) => (
             <Link href={`/${subjectId}/${source.id}`}>
-              <div className="h-[50px] flex items-center border">
+              <div className="h-[50px] flex items-center border p-2 py-6">
                 {source.title}
               </div>
             </Link>

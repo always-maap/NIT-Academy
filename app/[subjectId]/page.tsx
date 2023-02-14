@@ -1,9 +1,5 @@
-import AllSources from "@/db/sources.json";
+"use client";
 
-type Props = {
-  params: { subjectId: keyof typeof AllSources };
-};
-
-export default function Subject({ params: { subjectId } }: Props) {
+export default function Subject() {
   return <div>Please select a source</div>;
 }

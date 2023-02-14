@@ -4,15 +4,15 @@ import Container from "@/components/Container";
 import Item from "@/components/Item";
 import * as ScrollArea from "@radix-ui/react-scroll-area";
 import Link from "next/link";
-import subjects from "@/db/subjects.json";
+import { courseList } from "@/db/course-list";
 
 export default function Home() {
   return (
     <main>
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8">
-          {subjects.map((category) => (
-            <div className="" key={category.title}>
+          {courseList.map((category) => (
+            <div key={category.title}>
               <h2 className="text-2xl font-extrabold my-6">{category.title}</h2>
               <ScrollArea.Root className="lg:h-[80vh] rounded">
                 <ScrollArea.Viewport className="w-full h-full rounded">

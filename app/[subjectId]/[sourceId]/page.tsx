@@ -20,7 +20,16 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
   return (
     <div>
       {source.title}
-      <video src={source.url} />
+      {source.type === "note" ? (
+        <object
+          data={source.url}
+          type="application/pdf"
+          width="100%"
+          height="100%"
+        ></object>
+      ) : (
+        <video src={source.url} />
+      )}
     </div>
   );
 }

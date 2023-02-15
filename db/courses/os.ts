@@ -1,4 +1,6 @@
-export const os = {
+import { Course } from "@/types/Course";
+
+export const os: Course = {
   title: {
     fa: "سیستم های عامل",
     en: "os",

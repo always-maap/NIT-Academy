@@ -1,4 +1,7 @@
+"use client";
+
 import { courses } from "@/db/courses";
+import { useState } from "react";
 import NoSubject from "../NoSubject";
 import NoSource from "./NoSource";
 
@@ -11,9 +14,8 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
     return <NoSubject />;
   }
 
-  const source = courses[subjectId as keyof typeof courses]?.sources.find(
-    (src) => src.id === sourceId
-  );
+  const course = courses[subjectId];
+  const source = course?.sources.find((src) => src.id === sourceId);
 
   if (!source) {
     return <NoSource />;
@@ -21,16 +23,13 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
 
   return (
     <div>
-      {source.title}
+      <h2 className="text-2xl font-extrabold mb-4">
+        {course.title.fa} - {source.title}
+      </h2>
       {source.type === "note" ? (
-        <object
-          data={source.url}
-          type="application/pdf"
-          width="100%"
-          height="100%"
-        ></object>
+        <object data={source.url} type="application/pdf"></object>
       ) : (
-        <video src={source.url} controls />
+        <video className="w-full" src={source.url} controls />
       )}
     </div>
   );

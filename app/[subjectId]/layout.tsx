@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import { courses } from "@/db/courses";
 import Link from "next/link";
 import NoSubject from "./NoSubject";
+import Source from "./Source";
 
 type Props = {
   params: { subjectId: string };
@@ -16,21 +17,19 @@ export default function SubjectLayout({
     return <NoSubject />;
   }
 
-  const course = courses[subjectId as keyof typeof courses];
+  const course = courses[subjectId];
 
   return (
     <Container>
-      <div className="flex justify-between my-4">
-        <div className="flex flex-col bg-black">
+      <div className="flex flex-col-reverse xl:flex-row justify-between gap-8 my-4">
+        <div className="flex flex-col bg-black w-full xl:w-[275px] h-[80vh] overflow-y-auto shrink-0">
           {course.sources.map((source) => (
             <Link href={`/${subjectId}/${source.id}`}>
-              <div className="h-[50px] flex items-center border p-2 py-6">
-                {source.title}
-              </div>
+              <Source title={source.title} type={source.type} />
             </Link>
           ))}
         </div>
-        {children}
+        <div className="grow">{children}</div>
       </div>
     </Container>
   );

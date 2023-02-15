@@ -1,4 +1,6 @@
-export const signalsAndSystems = {
+import { Course } from "@/types/Course";
+
+export const signalsAndSystems: Course = {
   title: {
     fa: "سیگنال ها و سیستم ها",
     en: "signals-and-systems",

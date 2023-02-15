@@ -1,4 +1,6 @@
-export const osLab = {
+import { Course } from "@/types/Course";
+
+export const osLab: Course = {
   title: {
     fa: "آزمایشگاه سیستم های عامل",
     en: "os-lab",

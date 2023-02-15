@@ -1,4 +1,6 @@
-export const differentialEquations = {
+import { Course } from "@/types/Course";
+
+export const differentialEquations: Course = {
   title: {
     fa: "معادلات دیفرانسیل",
     en: "differential-equations",

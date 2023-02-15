@@ -47,9 +47,9 @@ export const basic = {
     {
       title: {
         fa: "آمار و احتمالات",
-        en: "",
+        en: "probability",
       },
-      slug: "",
+      slug: "/probability",
     },
     {
       title: {

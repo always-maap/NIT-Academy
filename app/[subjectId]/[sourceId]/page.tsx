@@ -1,4 +1,6 @@
 import { courses } from "@/db/courses";
+import NoSubject from "../NoSubject";
+import NoSource from "./NoSource";
 
 type Props = {
   params: { subjectId: string; sourceId: string };
@@ -6,7 +8,7 @@ type Props = {
 
 export default function Source({ params: { subjectId, sourceId } }: Props) {
   if (!Object.hasOwn(courses, subjectId)) {
-    return <div>lol</div>;
+    return <NoSubject />;
   }
 
   const source = courses[subjectId as keyof typeof courses]?.sources.find(
@@ -14,7 +16,7 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
   );
 
   if (!source) {
-    return <div>404</div>;
+    return <NoSource />;
   }
 
   return (

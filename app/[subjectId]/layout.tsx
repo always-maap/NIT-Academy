@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import { courses } from "@/db/courses";
 import Link from "next/link";
+import NoSubject from "./NoSubject";
 
 type Props = {
   params: { subjectId: string };
@@ -12,7 +13,7 @@ export default function SubjectLayout({
   children,
 }: Props) {
   if (!Object.hasOwn(courses, subjectId)) {
-    return <div>lol</div>;
+    return <NoSubject />;
   }
 
   const course = courses[subjectId as keyof typeof courses];

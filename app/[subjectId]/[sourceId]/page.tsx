@@ -28,7 +28,7 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
           height="100%"
         ></object>
       ) : (
-        <video src={source.url} />
+        <video src={source.url} controls />
       )}
     </div>
   );

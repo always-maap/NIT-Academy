@@ -40,9 +40,9 @@ export const basic = {
     {
       title: {
         fa: "معادلات دیفرانسیل",
-        en: "",
+        en: "differential-equations",
       },
-      slug: "",
+      slug: "/differential-equations",
     },
     {
       title: {

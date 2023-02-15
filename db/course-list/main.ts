@@ -119,9 +119,9 @@ export const main = {
     {
       title: {
         fa: "آزمایشگاه سیستم های عامل",
-        en: "",
+        en: "os-lab",
       },
-      slug: "",
+      slug: "/os-lab",
     },
     {
       title: {
@@ -156,7 +156,7 @@ export const main = {
         fa: "سیستم عامل",
         en: "operating-systems",
       },
-      slug: "",
+      slug: "/os",
     },
     {
       title: {

@@ -22,15 +22,19 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
   }
 
   return (
-    <div>
+    <>
       <h2 className="text-2xl font-extrabold mb-4">
         {course.title.fa} - {source.title}
       </h2>
       {source.type === "note" ? (
-        <object data={source.url} type="application/pdf"></object>
+        <object
+          className="w-full h-4/5"
+          data={source.url}
+          type="application/pdf"
+        ></object>
       ) : (
         <video className="w-full" src={source.url} controls />
       )}
-    </div>
+    </>
   );
 }

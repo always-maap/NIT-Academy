@@ -8,19 +8,19 @@ export const general = {
     },
     {
       title: "زبان خارجی",
-      slug: "",
+      slug: "/english",
     },
     {
       title: "دانش خانواده و جمعیت",
-      slug: "",
+      slug: "/family",
     },
     {
       title: "اندیشه اسلامی ۱",
-      slug: "",
+      slug: "/islamic-thoughts-1",
     },
     {
       title: "اندیشه اسلامی ۲",
-      slug: "",
+      slug: "/islamic-thoughts-2",
     },
     {
       title: "انسان در اسلام",
@@ -56,35 +56,27 @@ export const general = {
     },
     {
       title: "تاریخ تحلیلی صدر اسلام",
-      slug: "",
+      slug: "/history-of-islam",
     },
     {
       title: "تاریخ امامت",
-      slug: "",
+      slug: "/history-of-imam",
     },
     {
       title: "تفسیر موضوعی قرآن",
-      slug: "",
+      slug: "/quran",
     },
     {
       title: "تفسیر موضوعی نهج البلاغه",
       slug: "",
     },
     {
-      title: "انقلاب اسلامی و ریشه های آن",
-      slug: "",
-    },
-    {
       title: "انقلاب اسلامی ایران",
-      slug: "",
+      slug: "/iran-revolution",
     },
     {
       title: "آشنایی با قانون اساسی ایران",
-      slug: "",
-    },
-    {
-      title: "اندیشه سیاسی خمینی",
-      slug: "",
+      slug: "/constitution",
     },
   ],
 };

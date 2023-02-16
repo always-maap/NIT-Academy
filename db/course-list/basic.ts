@@ -3,59 +3,35 @@ export const basic = {
   variant: "green",
   subjects: [
     {
-      title: {
-        fa: "ریاضی عمومی ۱",
-        en: "math-1",
-      },
+      title: "ریاضی عمومی ۱",
       slug: "",
     },
     {
-      title: {
-        fa: "ریاضی عمومی ۲",
-        en: "math-2",
-      },
+      title: "ریاضی عمومی ۲",
       slug: "",
     },
     {
-      title: {
-        fa: "فیزیک ۱",
-        en: "physics-1",
-      },
+      title: "فیزیک ۱",
       slug: "",
     },
     {
-      title: {
-        fa: "فیزیک ۲",
-        en: "physics-2",
-      },
+      title: "فیزیک ۲",
       slug: "",
     },
     {
-      title: {
-        fa: "آزمایشگاه فیزیک ۲",
-        en: "physics-2-lab",
-      },
+      title: "آزمایشگاه فیزیک ۲",
       slug: "",
     },
     {
-      title: {
-        fa: "معادلات دیفرانسیل",
-        en: "differential-equations",
-      },
+      title: "معادلات دیفرانسیل",
       slug: "/differential-equations",
     },
     {
-      title: {
-        fa: "آمار و احتمالات",
-        en: "probability",
-      },
+      title: "آمار و احتمالات",
       slug: "/probability",
     },
     {
-      title: {
-        fa: "آشنایی با مهندسی کامپیوتر",
-        en: "",
-      },
+      title: "آشنایی با مهندسی کامپیوتر",
       slug: "",
     },
   ],

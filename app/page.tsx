@@ -17,9 +17,9 @@ export default function Home() {
               <ScrollArea.Root className="lg:h-[80vh] rounded">
                 <ScrollArea.Viewport className="w-full h-full rounded">
                   {category.subjects.map((subject) => (
-                    <Link key={subject.title.fa} href={subject.slug}>
+                    <Link key={subject.title} href={subject.slug}>
                       <Item variant={category.variant as any}>
-                        {subject.title.fa}
+                        {subject.title}
                       </Item>
                     </Link>
                   ))}

@@ -7,7 +7,7 @@ type Props = {
 
 export default function Container(props: Props) {
   return (
-    <main className={clsx("container max-w-l mx-auto", props.className)}>
+    <main className={clsx("container max-w-l mx-auto px-3", props.className)}>
       {props.children}
     </main>
   );

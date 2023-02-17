@@ -94,7 +94,7 @@ export const main = {
     },
     {
       title: "مبانی و کاربرد های هوش مصنوعی",
-      slug: "",
+      slug: "/ai",
     },
     {
       title: "کارآموزی",

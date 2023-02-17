@@ -1,4 +1,5 @@
 import { Course } from "@/types/Course";
+import { ai } from "./ai";
 import { constitution } from "./constitution";
 import { differentialEquations } from "./differential-equations";
 import { english } from "./english";
@@ -11,14 +12,17 @@ import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { os } from "./os";
 import { osLab } from "./os-lab";
 import { persianLiterature } from "./persian-literature";
+import { physics2 } from "./physics-2";
 import { probability } from "./probability";
 import { quran } from "./quran";
 import { signalsAndSystems } from "./signals-and-systems";
 
 export const courses: Record<string, Course> = {
+  "physics-2": physics2,
   "differential-equations": differentialEquations,
   probability: probability,
 
+  ai: ai,
   os: os,
   "os-lab": osLab,
 

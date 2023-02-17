@@ -16,7 +16,7 @@ export const basic = {
     },
     {
       title: "فیزیک ۲",
-      slug: "",
+      slug: "/physics-2",
     },
     {
       title: "آزمایشگاه فیزیک ۲",

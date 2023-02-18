@@ -30,6 +30,22 @@ export const metadata: Metadata = {
   icons: {
     shortcut: "/favicon.ico",
   },
+  openGraph: {
+    title: "آکادمی کامپیوتر نوشیروانی",
+    description:
+      "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل",
+    url: "https://nitacademy.ir",
+    siteName: "آکادمی کامپیوتر نوشیروانی",
+    images: [
+      {
+        url: "https://nitacademy.ir/og.png",
+        width: 1920,
+        height: 1080,
+      },
+    ],
+    locale: "fa-IR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

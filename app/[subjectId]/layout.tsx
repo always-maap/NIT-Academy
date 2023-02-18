@@ -1,4 +1,5 @@
 import Container from "@/components/Container";
+import { ScrollArea } from "@/components/ui/ScrollArea";
 import { courses } from "@/db/courses";
 import Link from "next/link";
 import NoSubject from "./NoSubject";
@@ -22,13 +23,15 @@ export default function SubjectLayout({
   return (
     <Container>
       <div className="flex flex-col-reverse xl:flex-row justify-between gap-8 my-4">
-        <div className="flex flex-col bg-black w-full xl:w-[275px] xl:h-[80vh] overflow-y-auto shrink-0">
-          {course.sources.map((source) => (
-            <Link href={`/${subjectId}/${source.id}`}>
-              <Source title={source.title} type={source.type} />
-            </Link>
-          ))}
-        </div>
+        <ScrollArea className="xl:h-[80vh] shrink-0">
+          <div className="flex flex-col xl:w-[275px] w-full rounded bg-black">
+            {course.sources.map((source) => (
+              <Link href={`/${subjectId}/${source.id}`}>
+                <Source title={source.title} type={source.type} />
+              </Link>
+            ))}
+          </div>
+        </ScrollArea>
         <div className="grow">{children}</div>
       </div>
     </Container>

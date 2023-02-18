@@ -1,5 +1,3 @@
-const { blackA, mauve } = require("@radix-ui/colors");
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,10 +12,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-yekanBakh)"],
-      },
-      colors: {
-        ...blackA,
-        ...mauve,
       },
     },
   },

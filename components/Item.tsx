@@ -23,10 +23,7 @@ export default function Item(props: Props) {
   };
 
   return (
-    <div
-      className="h-[50px] w-full flex justify-between items-center mb-2 bg-[#000] pr-5 rounded-lg hover:-translate-y-0.5 transition"
-      dir="rtl"
-    >
+    <div className="h-[50px] w-full flex justify-between items-center mb-2 bg-[#000] pr-5 rounded-lg hover:-translate-y-0.5 transition">
       {props.children}
       <div
         className={clsx(

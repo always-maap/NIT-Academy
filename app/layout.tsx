@@ -59,7 +59,6 @@ export default function RootLayout({
   return (
     <html
       lang="fa"
-      dir="rtl"
       className={clsx("text-white bg-[#111010]", yekanBakh.variable)}
     >
       <head />

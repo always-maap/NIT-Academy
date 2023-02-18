@@ -20,7 +20,7 @@ const yekanBakh = localFont({
   display: "swap",
 });
 
-const TITLE = "";
+const TITLE = "آکادمی کامپیوتر نوشیروانی";
 const DESCRIPTION =
   "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل";
 const OG = "https://nitacademy.ir/og.jpg";

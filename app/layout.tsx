@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "آکادمی کامپیوتر نوشیروانی",
     images: [
       {
-        url: "https://nitacademy.ir/og.png",
+        url: "https://nitacademy.ir/og.jpg",
         width: 1920,
         height: 1080,
       },

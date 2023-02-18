@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import localFont from "@next/font/local";
 import clsx from "clsx";
+import type { Metadata } from "next";
 
 import "./globals.css";
 
@@ -18,6 +19,18 @@ const yekanBakh = localFont({
   variable: "--font-yekanBakh",
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: {
+    default: "آکادمی کامپیوتر نوشیروانی",
+    template: "آکادمی | %s",
+  },
+  description:
+    "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل",
+  icons: {
+    shortcut: "/favicon.ico",
+  },
+};
 
 export default function RootLayout({
   children,

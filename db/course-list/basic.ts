@@ -16,7 +16,7 @@ export const basic = {
     },
     {
       title: "فیزیک ۲",
-      slug: "/physics-2",
+      slug: "/physics-2/1",
     },
     {
       title: "آزمایشگاه فیزیک ۲",
@@ -24,11 +24,11 @@ export const basic = {
     },
     {
       title: "معادلات دیفرانسیل",
-      slug: "/differential-equations",
+      slug: "/differential-equations/0-1",
     },
     {
       title: "آمار و احتمالات",
-      slug: "/probability",
+      slug: "/probability/1",
     },
     {
       title: "آشنایی با مهندسی کامپیوتر",

@@ -70,7 +70,7 @@ export const main = {
     },
     {
       title: "آزمایشگاه سیستم های عامل",
-      slug: "/os-lab",
+      slug: "/os-lab/0",
     },
     {
       title: "آزمایشگاه مدارهای منطقی و معماری کامپیوتر",
@@ -90,11 +90,11 @@ export const main = {
     },
     {
       title: "سیستم عامل",
-      slug: "/os",
+      slug: "/os/1",
     },
     {
       title: "مبانی و کاربرد های هوش مصنوعی",
-      slug: "/ai",
+      slug: "/ai/1",
     },
     {
       title: "کارآموزی",

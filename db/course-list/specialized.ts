@@ -56,7 +56,7 @@ export const specialized = {
     },
     {
       title: "سیگنال ها و سیستم ها",
-      slug: "/signals-and-systems",
+      slug: "/signals-and-systems/1",
     },
   ],
 };

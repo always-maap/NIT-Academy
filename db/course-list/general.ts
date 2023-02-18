@@ -4,23 +4,23 @@ export const general = {
   subjects: [
     {
       title: "فارسی",
-      slug: "/persian-literature",
+      slug: "/persian-literature/1",
     },
     {
       title: "زبان خارجی",
-      slug: "/english",
+      slug: "/english/1",
     },
     {
       title: "دانش خانواده و جمعیت",
-      slug: "/family",
+      slug: "/family/1",
     },
     {
       title: "اندیشه اسلامی ۱",
-      slug: "/islamic-thoughts-1",
+      slug: "/islamic-thoughts-1/1",
     },
     {
       title: "اندیشه اسلامی ۲",
-      slug: "/islamic-thoughts-2",
+      slug: "/islamic-thoughts-2/1",
     },
     {
       title: "انسان در اسلام",
@@ -56,15 +56,15 @@ export const general = {
     },
     {
       title: "تاریخ تحلیلی صدر اسلام",
-      slug: "/history-of-islam",
+      slug: "/history-of-islam/1",
     },
     {
       title: "تاریخ امامت",
-      slug: "/history-of-imam",
+      slug: "/history-of-imam/1",
     },
     {
       title: "تفسیر موضوعی قرآن",
-      slug: "/quran",
+      slug: "/quran/1",
     },
     {
       title: "تفسیر موضوعی نهج البلاغه",
@@ -72,11 +72,11 @@ export const general = {
     },
     {
       title: "انقلاب اسلامی ایران",
-      slug: "/iran-revolution",
+      slug: "/iran-revolution/1",
     },
     {
       title: "آشنایی با قانون اساسی ایران",
-      slug: "/constitution",
+      slug: "/constitution/1",
     },
   ],
 };

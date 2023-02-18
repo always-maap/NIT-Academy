@@ -20,31 +20,34 @@ const yekanBakh = localFont({
   display: "swap",
 });
 
+const TITLE = "";
+const DESCRIPTION =
+  "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل";
+const OG = "https://nitacademy.ir/og.jpg";
+
 export const metadata: Metadata = {
   title: {
-    default: "آکادمی کامپیوتر نوشیروانی",
+    default: TITLE,
     template: "آکادمی | %s",
   },
-  description:
-    "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل",
+  description: DESCRIPTION,
   icons: {
     shortcut: "/favicon.ico",
   },
   openGraph: {
-    title: "آکادمی کامپیوتر نوشیروانی",
-    description:
-      "آموزش های مجازی، جزوات و سوالات رشته کامپیوتر دانشگاه نوشیروانی بابل",
+    title: TITLE,
+    description: "",
     url: "https://nitacademy.ir",
-    siteName: "آکادمی کامپیوتر نوشیروانی",
-    images: [
-      {
-        url: "https://nitacademy.ir/og.jpg",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    siteName: TITLE,
+    images: [OG],
     locale: "fa-IR",
     type: "website",
+  },
+  twitter: {
+    title: TITLE,
+    description: DESCRIPTION,
+    card: "summary_large_image",
+    images: [OG],
   },
 };
 

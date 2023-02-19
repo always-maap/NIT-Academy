@@ -32,7 +32,7 @@ export const main = {
     },
     {
       title: "طراحی الگوریتم ها",
-      slug: "",
+      slug: "/algorithm-design/1-1",
     },
     {
       title: "نظریه زبان ها و ماشین ها",

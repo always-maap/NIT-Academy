@@ -28,7 +28,7 @@ export const main = {
     },
     {
       title: "مدارهای الکتریکی و الکترونیکی",
-      slug: "",
+      slug: "/electric-electronic-circuits/1",
     },
     {
       title: "طراحی الگوریتم ها",

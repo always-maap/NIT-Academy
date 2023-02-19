@@ -3,6 +3,7 @@ import { ai } from "./ai";
 import { algorithmDesign } from "./algorithm-design";
 import { constitution } from "./constitution";
 import { differentialEquations } from "./differential-equations";
+import { electricElectronicCircuits } from "./electric-electronic-circuits";
 import { english } from "./english";
 import { family } from "./family";
 import { historyOfImam } from "./history-of-imam";
@@ -25,6 +26,7 @@ export const courses: Record<string, Course> = {
 
   ai: ai,
   "algorithm-design": algorithmDesign,
+  "electric-electronic-circuits": electricElectronicCircuits,
   os: os,
   "os-lab": osLab,
 

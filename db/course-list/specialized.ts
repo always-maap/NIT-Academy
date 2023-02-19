@@ -12,7 +12,7 @@ export const specialized = {
     },
     {
       title: "طراحی زبان های برنامه سازی",
-      slug: "",
+      slug: "/language-design/1",
     },
     {
       title: "آزمایشگاه پایگاه داده",

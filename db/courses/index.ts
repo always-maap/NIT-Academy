@@ -11,6 +11,7 @@ import { historyOfIslam } from "./history-of-islam";
 import { iranRevolution } from "./iran-revolution";
 import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
+import { languageDesign } from "./language-design";
 import { os } from "./os";
 import { osLab } from "./os-lab";
 import { persianLiterature } from "./persian-literature";
@@ -33,6 +34,7 @@ export const courses: Record<string, Course> = {
   "os-lab": osLab,
 
   "signals-and-systems": signalsAndSystems,
+  "language-design": languageDesign,
 
   "persian-literature": persianLiterature,
   english: english,

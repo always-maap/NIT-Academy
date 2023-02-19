@@ -1,0 +1,160 @@
+import { Course } from "@/types/Course";
+
+export const languageDesign: Course = {
+  title: {
+    fa: "طراحی زبان های برنامه سازی",
+    en: "language-design",
+  },
+  sources: [
+    {
+      id: "1",
+      title: "جلسه یکم - intro",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/1.mp4",
+    },
+    {
+      id: "2",
+      title: "جلسه دوم - intro",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/2.mp4",
+    },
+    {
+      id: "3",
+      title: "جلسه سوم - intro",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/3.mp4",
+    },
+    {
+      id: "4",
+      title: "جلسه چهارم - intro",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/4.mp4",
+    },
+    {
+      id: "5",
+      title: "جلسه پنجم - intro",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/5.mp4",
+    },
+    {
+      id: "6",
+      title: "جلسه ششم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/6.mp4",
+    },
+    {
+      id: "7",
+      title: "جلسه هفتم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/7.mp4",
+    },
+    {
+      id: "8",
+      title: "جلسه هشتم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/8.mp4",
+    },
+    {
+      id: "9",
+      title: "جلسه نهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/9.mp4",
+    },
+    {
+      id: "10",
+      title: "جلسه دهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/10.mp4",
+    },
+    {
+      id: "11",
+      title: "جلسه یازدهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/11.mp4",
+    },
+    {
+      id: "12",
+      title: "جلسه دوازدهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/12.mp4",
+    },
+    {
+      id: "13",
+      title: "جلسه سیزدهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/13.mp4",
+    },
+    {
+      id: "14",
+      title: "جلسه چهاردهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/14.mp4",
+    },
+    {
+      id: "15",
+      title: "جلسه پانزدهم - scheme",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/15.mp4",
+    },
+    {
+      id: "16",
+      title: "جلسه شانزدهم - ml",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/16.mp4",
+    },
+    {
+      id: "17",
+      title: "جلسه هفدهم - ml",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/17.mp4",
+    },
+    {
+      id: "18",
+      title: "جلسه هجدهم - ml",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/18.mp4",
+    },
+    {
+      id: "19",
+      title: "جلسه نوزدهم - ml_type_inference",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/19.mp4",
+    },
+    {
+      id: "20",
+      title: "جلسه بیستم - prolog",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/20.mp4",
+    },
+    {
+      id: "21",
+      title: "جلسه بیست و یکم - prolog",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/21.mp4",
+    },
+    {
+      id: "22",
+      title: "جلسه بیست و دوم - swi_prolog",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/22.mp4",
+    },
+    {
+      id: "23",
+      title: "جلسه بیست و سوم - dic_sets",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/23.mp4",
+    },
+    {
+      id: "24",
+      title: "جلسه بیست و چهارم - python_fun_class",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/24.mp4",
+    },
+    {
+      id: "25",
+      title: "جلسه بیست و پنجم - scope_closure",
+      type: "video",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/language-design/25.mp4",
+    },
+  ],
+};

@@ -82,7 +82,7 @@ export const main = {
     },
     {
       title: "روش پژوهش و ارائه",
-      slug: "",
+      slug: "/research/1-1",
     },
     {
       title: "جبر خطی",

@@ -17,6 +17,7 @@ import { persianLiterature } from "./persian-literature";
 import { physics2 } from "./physics-2";
 import { probability } from "./probability";
 import { quran } from "./quran";
+import { research } from "./research";
 import { signalsAndSystems } from "./signals-and-systems";
 
 export const courses: Record<string, Course> = {
@@ -27,6 +28,7 @@ export const courses: Record<string, Course> = {
   ai: ai,
   "algorithm-design": algorithmDesign,
   "electric-electronic-circuits": electricElectronicCircuits,
+  research: research,
   os: os,
   "os-lab": osLab,
 

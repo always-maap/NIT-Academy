@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <a href="https://github.com/always-maap/NIT-Academy">
+    <img src="https://raw.githubusercontent.com/always-maap/NIT-Academy/master/public/og.jpg" alt="nit logo" />
+  </a>
 
-## Getting Started
+  <p>Noshirvani online classes during pandemic - Winter 2023</p>
+</div>
+
+## About
+
+NIT Academy brought to you by computer students at Noshirvani. It's a collective effort to help our future colleagemate and grow academic justice.
+
+## Track
+
+It's an ongoing effort to collect as much as possible.
+Send message to @TuR1NG if you want to contribute. You can checkout our progress at https://nitacademy.ir/track
+
+## Contribution
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+```
+pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Thanks to ✨
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Roya Shahrudi
+- Kiarash Sabahi
+- Yeganeh Jamshidi
+- Mahla Kazemzadeh
+- Erfan Najafpour
+- @nit_needs
+- @roh_bakhsh1
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+and all the amazing professors at Babol Noshirvani University of Technology

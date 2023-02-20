@@ -20,7 +20,7 @@ export const main = {
     },
     {
       title: "ساختمان داده ها",
-      slug: "",
+      slug: "/data-structure/1",
     },
     {
       title: "مدارهای منطقی",
@@ -44,7 +44,7 @@ export const main = {
     },
     {
       title: "شبکه های کامپیوتری",
-      slug: "",
+      slug: "/network/1",
     },
     {
       title: "آزمایشگاه شبکه های کامپیوتری",

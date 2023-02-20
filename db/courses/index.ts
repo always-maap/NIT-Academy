@@ -2,6 +2,7 @@ import { Course } from "@/types/Course";
 import { ai } from "./ai";
 import { algorithmDesign } from "./algorithm-design";
 import { constitution } from "./constitution";
+import { dataStructure } from "./data-structure";
 import { differentialEquations } from "./differential-equations";
 import { electricElectronicCircuits } from "./electric-electronic-circuits";
 import { english } from "./english";
@@ -12,6 +13,7 @@ import { iranRevolution } from "./iran-revolution";
 import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { languageDesign } from "./language-design";
+import { network } from "./network";
 import { os } from "./os";
 import { osLab } from "./os-lab";
 import { persianLiterature } from "./persian-literature";
@@ -26,12 +28,14 @@ export const courses: Record<string, Course> = {
   "differential-equations": differentialEquations,
   probability: probability,
 
+  "data-structure": dataStructure,
   ai: ai,
   "algorithm-design": algorithmDesign,
   "electric-electronic-circuits": electricElectronicCircuits,
   research: research,
   os: os,
   "os-lab": osLab,
+  network: network,
 
   "signals-and-systems": signalsAndSystems,
   "language-design": languageDesign,

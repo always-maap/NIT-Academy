@@ -36,7 +36,7 @@ export const main = {
     },
     {
       title: "نظریه زبان ها و ماشین ها",
-      slug: "",
+      slug: "/language-theory/1",
     },
     {
       title: "زبان تخصصی",

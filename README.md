@@ -28,7 +28,7 @@ Open http://localhost:3000 with your browser to see the result.
 
 ## Thanks to ✨
 
-- Roya Shahrudi
+- Roya Shahroudi
 - Kiarash Sabahi
 - Yeganeh Jamshidi
 - Mahla Kazemzadeh

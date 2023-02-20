@@ -13,6 +13,7 @@ import { iranRevolution } from "./iran-revolution";
 import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { languageDesign } from "./language-design";
+import { languageTheory } from "./language-theory";
 import { nahjAlBalagha } from "./nahj-al-balagha";
 import { network } from "./network";
 import { os } from "./os";
@@ -37,6 +38,7 @@ export const courses: Record<string, Course> = {
   os: os,
   "os-lab": osLab,
   network: network,
+  "language-theory": languageTheory,
 
   "signals-and-systems": signalsAndSystems,
   "language-design": languageDesign,

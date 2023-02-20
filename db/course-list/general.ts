@@ -68,7 +68,7 @@ export const general = {
     },
     {
       title: "تفسیر موضوعی نهج البلاغه",
-      slug: "",
+      slug: "/nahj-al-balagha/1",
     },
     {
       title: "انقلاب اسلامی ایران",

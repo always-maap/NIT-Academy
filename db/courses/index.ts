@@ -13,6 +13,7 @@ import { iranRevolution } from "./iran-revolution";
 import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { languageDesign } from "./language-design";
+import { nahjAlBalagha } from "./nahj-al-balagha";
 import { network } from "./network";
 import { os } from "./os";
 import { osLab } from "./os-lab";
@@ -46,6 +47,7 @@ export const courses: Record<string, Course> = {
   "history-of-islam": historyOfIslam,
   "history-of-imam": historyOfImam,
   quran: quran,
+  "nahj-al-balagha": nahjAlBalagha,
   "islamic-thoughts-1": islamicThoughts1,
   "islamic-thoughts-2": islamicThoughts2,
   "iran-revolution": iranRevolution,

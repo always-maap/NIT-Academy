@@ -27,7 +27,7 @@ export const basic = {
       slug: "/differential-equations/0-1",
     },
     {
-      title: "آمار و احتمالات",
+      title: "آمار و احتمالات مهندسی",
       slug: "/probability/1",
     },
     {

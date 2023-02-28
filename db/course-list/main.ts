@@ -78,7 +78,7 @@ export const main = {
     },
     {
       title: "اصول طراحی کامپایلر",
-      slug: "",
+      slug: "/compiler/1",
     },
     {
       title: "روش پژوهش و ارائه",

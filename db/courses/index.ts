@@ -1,6 +1,7 @@
 import { Course } from "@/types/Course";
 import { ai } from "./ai";
 import { algorithmDesign } from "./algorithm-design";
+import { compiler } from "./compiler";
 import { constitution } from "./constitution";
 import { dataStructure } from "./data-structure";
 import { differentialEquations } from "./differential-equations";
@@ -39,6 +40,7 @@ export const courses: Record<string, Course> = {
   "os-lab": osLab,
   network: network,
   "language-theory": languageTheory,
+  compiler: compiler,
 
   "signals-and-systems": signalsAndSystems,
   "language-design": languageDesign,

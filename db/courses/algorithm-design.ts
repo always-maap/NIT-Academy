@@ -7,6 +7,72 @@ export const algorithmDesign: Course = {
   },
   sources: [
     {
+      id: "1-note",
+      title: "جزوه Mathematics",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/1-note.pdf",
+    },
+    {
+      id: "2-note",
+      title: "جزوه Algorithms",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/2-note.pdf",
+    },
+    {
+      id: "3-note",
+      title: "جزوه D&C",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/3-note.pdf",
+    },
+    {
+      id: "4-note",
+      title: "جزوه DP",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/4-note.pdf",
+    },
+    {
+      id: "5-note",
+      title: "جزوه Greedy",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/5-note.pdf",
+    },
+    {
+      id: "6-note",
+      title: "جزوه BT",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/6-note.pdf",
+    },
+    {
+      id: "7-note",
+      title: "جزوه B&B",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/7-note.pdf",
+    },
+    {
+      id: "8-note",
+      title: "جزوه NP",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/8-note.pdf",
+    },
+    {
+      id: "9-note",
+      title: "جزوه NP",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/9-note.pdf",
+    },
+    {
+      id: "10-note",
+      title: "جزوه CLRS",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/10-note.pdf",
+    },
+    {
+      id: "11-note",
+      title: "جزوه Sedgewick",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/algorithm-design/11-note.pdf",
+    },
+    {
       id: "1-1",
       title: "جلسه یکم بخش اول - Mathematics",
       type: "video",

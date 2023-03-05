@@ -15,6 +15,7 @@ import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { languageDesign } from "./language-design";
 import { languageTheory } from "./language-theory";
+import { linearAlgebra } from "./linear-algebra";
 import { nahjAlBalagha } from "./nahj-al-balagha";
 import { network } from "./network";
 import { os } from "./os";
@@ -27,10 +28,12 @@ import { research } from "./research";
 import { signalsAndSystems } from "./signals-and-systems";
 
 export const courses: Record<string, Course> = {
+  // basic
   "physics-2": physics2,
   "differential-equations": differentialEquations,
   probability: probability,
 
+  // main
   "data-structure": dataStructure,
   ai: ai,
   "algorithm-design": algorithmDesign,
@@ -41,10 +44,13 @@ export const courses: Record<string, Course> = {
   network: network,
   "language-theory": languageTheory,
   compiler: compiler,
+  "linear-algebra": linearAlgebra,
 
+  // specialized
   "signals-and-systems": signalsAndSystems,
   "language-design": languageDesign,
 
+  // general
   "persian-literature": persianLiterature,
   english: english,
   family: family,

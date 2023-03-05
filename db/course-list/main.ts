@@ -86,7 +86,7 @@ export const main = {
     },
     {
       title: "جبر خطی",
-      slug: "",
+      slug: "/linear-algebra/1",
     },
     {
       title: "سیستم عامل",

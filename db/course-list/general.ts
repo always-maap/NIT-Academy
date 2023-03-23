@@ -56,7 +56,7 @@ export const general = {
     },
     {
       title: "تاریخ تحلیلی صدر اسلام",
-      slug: "",
+      slug: "/history-of-islam/1",
     },
     {
       title: "تاریخ امامت",

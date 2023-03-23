@@ -10,7 +10,7 @@ export const historyOfIslam: Course = {
       id: "1",
       title: "تاریخ تحلیلی صدر اسلام",
       type: "note",
-      url: "",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/history-of-islam/history-of-islam.pdf",
     },
   ],
 };

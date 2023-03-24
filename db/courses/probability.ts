@@ -7,6 +7,12 @@ export const probability: Course = {
   },
   sources: [
     {
+      id: "1-note",
+      title: "جزوه آمار و احتمال مهندسی",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/probability/1-note.pdf",
+    },
+    {
       id: "1",
       title: "جلسه ۱: مقدمه و مروری بر نظریه مجموعه‌ها",
       type: "video",

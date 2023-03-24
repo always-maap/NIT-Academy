@@ -28,12 +28,13 @@ Open http://localhost:3000 with your browser to see the result.
 
 ## Thanks to ✨
 
-- Roya Shahroudi
-- Kiarash Sabahi
-- Yeganeh Jamshidi
+- [Roya Shahroudi](https://github.com/RoyaShahroudi)
+- [Kiarash Sabahi](https://github.com/KiarashSabahi)
+- [Yeganeh Jamshidi](https://github.com/yeganehjam)
 - Mahla Kazemzadeh
 - Erfan Najafpour
-- @nit_needs
-- @roh_bakhsh1
+- [Fazel Haghighi](https://github.com/FazelHaghighi)
+- [@nit_needs](https://t.me/nit_needs)
+- [@roh_bakhsh1](https://t.me/roh_bakhsh1)
 
 and all the amazing professors at Babol Noshirvani University of Technology

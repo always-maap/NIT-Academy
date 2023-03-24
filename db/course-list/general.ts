@@ -23,36 +23,8 @@ export const general = {
       slug: "/islamic-thoughts-2/1",
     },
     {
-      title: "انسان در اسلام",
-      slug: "",
-    },
-    {
-      title: "حقوق سیاسی اجتماعی اسلام",
-      slug: "",
-    },
-    {
-      title: "اخلاق و تربیت اسلامی",
-      slug: "",
-    },
-    {
-      title: "فلسفه اخلاق",
-      slug: "",
-    },
-    {
-      title: "اخلاق اسلامی",
-      slug: "",
-    },
-    {
       title: "آیین زندگی",
-      slug: "",
-    },
-    {
-      title: "عرفان عملی اسلام",
-      slug: "",
-    },
-    {
-      title: "تاریخ فرهنگ و تمدن اسلامی",
-      slug: "",
+      slug: "/life-style/1-book",
     },
     {
       title: "تاریخ تحلیلی صدر اسلام",

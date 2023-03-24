@@ -15,6 +15,7 @@ import { islamicThoughts1 } from "./islamic-thoughts-1";
 import { islamicThoughts2 } from "./islamic-thoughts-2";
 import { languageDesign } from "./language-design";
 import { languageTheory } from "./language-theory";
+import { lifeStyle } from "./life-style";
 import { linearAlgebra } from "./linear-algebra";
 import { nahjAlBalagha } from "./nahj-al-balagha";
 import { network } from "./network";
@@ -54,12 +55,13 @@ export const courses: Record<string, Course> = {
   "persian-literature": persianLiterature,
   english: english,
   family: family,
+  "islamic-thoughts-1": islamicThoughts1,
+  "islamic-thoughts-2": islamicThoughts2,
+  "life-style": lifeStyle,
   "history-of-islam": historyOfIslam,
   "history-of-imam": historyOfImam,
   quran: quran,
   "nahj-al-balagha": nahjAlBalagha,
-  "islamic-thoughts-1": islamicThoughts1,
-  "islamic-thoughts-2": islamicThoughts2,
   "iran-revolution": iranRevolution,
   constitution: constitution,
 };

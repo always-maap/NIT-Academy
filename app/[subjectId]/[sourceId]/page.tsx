@@ -1,7 +1,7 @@
 "use client";
 
 import { courses } from "@/db/courses";
-import { useState } from "react";
+import { RxDownload } from "react-icons/rx";
 import NoSubject from "../NoSubject";
 import NoSource from "./NoSource";
 
@@ -23,9 +23,20 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
 
   return (
     <>
-      <h2 className="text-2xl font-extrabold mb-4">
-        {course.title.fa} - {source.title}
-      </h2>
+      <div className="flex justify-between items-center mb-4">
+        <h2 className="text-2xl font-extrabold">
+          {course.title.fa} - {source.title}
+        </h2>
+
+        <a
+          className="flex items-center gap-2 border px-4 py-2 rounded-lg font-extrabold"
+          href={source.url}
+          download
+        >
+          دانلود
+          <RxDownload strokeWidth={1} />
+        </a>
+      </div>
       {source.type === "note" ? (
         <object
           className="w-full h-4/5"

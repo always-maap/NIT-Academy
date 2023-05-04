@@ -8,6 +8,7 @@ specifiers:
   '@types/node': 18.13.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.10
+  '@vercel/analytics': ^1.0.1
   autoprefixer: ^10.4.13
   clsx: ^1.2.1
   eslint: 8.34.0
@@ -24,6 +25,7 @@ dependencies:
   '@next/font': 13.1.7-canary.18
   '@radix-ui/react-scroll-area': 1.0.2_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-toast': 1.1.2_biqbaboplfbrettd7655fr4n2y
+  '@vercel/analytics': 1.0.1
   clsx: 1.2.1
   eslint: 8.34.0
   eslint-config-next: 13.1.7-canary.18_7kw3g6rralp5ps6mg3uyzz6azm
@@ -571,6 +573,10 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.51.0
       eslint-visitor-keys: 3.3.0
+    dev: false
+
+  /@vercel/analytics/1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.2:

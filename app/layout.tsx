@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import localFont from "@next/font/local";
 import clsx from "clsx";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
@@ -65,6 +66,7 @@ export default function RootLayout({
       <body className="">
         <Nav />
         {children}
+        <Analytics />
       </body>
     </html>
   );

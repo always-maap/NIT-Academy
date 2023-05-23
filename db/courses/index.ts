@@ -27,6 +27,7 @@ import { probability } from "./probability";
 import { quran } from "./quran";
 import { research } from "./research";
 import { signalsAndSystems } from "./signals-and-systems";
+import { informationRetrieval } from "./information-retrieval";
 
 export const courses: Record<string, Course> = {
   // basic
@@ -50,6 +51,7 @@ export const courses: Record<string, Course> = {
   // specialized
   "signals-and-systems": signalsAndSystems,
   "language-design": languageDesign,
+  "information-retrieval": informationRetrieval,
 
   // general
   "persian-literature": persianLiterature,

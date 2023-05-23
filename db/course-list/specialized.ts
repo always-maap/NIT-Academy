@@ -24,7 +24,7 @@ export const specialized = {
     },
     {
       title: "مبانی بازیابی اطلاعات",
-      slug: "",
+      slug: "/information-retrieval/0",
     },
     {
       title: "برنامه نویسی وب",

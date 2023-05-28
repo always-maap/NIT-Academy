@@ -2,7 +2,7 @@ import { Course } from "@/types/Course";
 
 export const network: Course = {
   title: {
-    fa: "شبکه های کامپیوتری	",
+    fa: "شبکه های کامپیوتری",
     en: "network",
   },
   sources: [

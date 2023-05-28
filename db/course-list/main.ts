@@ -48,7 +48,7 @@ export const main = {
     },
     {
       title: "آزمایشگاه شبکه های کامپیوتری",
-      slug: "",
+      slug: "/network-lab/1",
     },
     {
       title: "پایگاه داده ها",

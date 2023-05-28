@@ -33,6 +33,8 @@ Open http://localhost:3000 with your browser to see the result.
 - [Yeganeh Jamshidi](https://github.com/yeganehjam)
 - Mahla Kazemzadeh
 - Erfan Najafpour
+- Pouya Rezvani
+- Abbas Mojarad
 - [Fazel Haghighi](https://github.com/FazelHaghighi)
 - [@nit_needs](https://t.me/nit_needs)
 - [@roh_bakhsh1](https://t.me/roh_bakhsh1)

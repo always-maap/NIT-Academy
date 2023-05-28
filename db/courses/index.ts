@@ -28,6 +28,7 @@ import { quran } from "./quran";
 import { research } from "./research";
 import { signalsAndSystems } from "./signals-and-systems";
 import { informationRetrieval } from "./information-retrieval";
+import { networkLab } from "./network-lab";
 
 export const courses: Record<string, Course> = {
   // basic
@@ -44,6 +45,7 @@ export const courses: Record<string, Course> = {
   os: os,
   "os-lab": osLab,
   network: network,
+  "network-lab": networkLab,
   "language-theory": languageTheory,
   compiler: compiler,
   "linear-algebra": linearAlgebra,

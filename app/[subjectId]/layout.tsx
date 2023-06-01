@@ -5,6 +5,14 @@ import Link from "next/link";
 import NoSubject from "./NoSubject";
 import Source from "./Source";
 
+export async function generateStaticParams() {
+  const courseList = Object.keys(courses);
+
+  return courseList.map((c) => ({ subjectId: c }));
+}
+
+export const dynamicParams = false;
+
 type Props = {
   params: { subjectId: string };
   children: React.ReactNode;

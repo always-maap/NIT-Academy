@@ -29,7 +29,7 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
         </h2>
 
         <a
-          className="flex items-center gap-2 border px-4 py-2 rounded-lg font-extrabold"
+          className="hidden md:flex items-center gap-2 border px-4 py-2 rounded-lg font-extrabold"
           href={source!.url}
           download
         >
@@ -46,6 +46,16 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
       ) : (
         <video className="w-full" src={source!.url} controls />
       )}
+      <div className="flex justify-end my-4">
+        <a
+          className="md:hidden flex items-center gap-2 border px-4 py-2 rounded-lg font-extrabold"
+          href={source!.url}
+          download
+        >
+          دانلود
+          <RxDownload strokeWidth={1} />
+        </a>
+      </div>
     </>
   );
 }

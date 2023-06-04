@@ -98,7 +98,7 @@ export const main = {
     },
     {
       title: "کارآموزی",
-      slug: "",
+      slug: "/internship/intern",
     },
   ],
 };

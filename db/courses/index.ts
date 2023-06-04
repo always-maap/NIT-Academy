@@ -29,6 +29,7 @@ import { research } from "./research";
 import { signalsAndSystems } from "./signals-and-systems";
 import { informationRetrieval } from "./information-retrieval";
 import { networkLab } from "./network-lab";
+import { internship } from "./internship";
 
 export const courses: Record<string, Course> = {
   // basic
@@ -49,6 +50,7 @@ export const courses: Record<string, Course> = {
   "language-theory": languageTheory,
   compiler: compiler,
   "linear-algebra": linearAlgebra,
+  internship: internship,
 
   // specialized
   "signals-and-systems": signalsAndSystems,

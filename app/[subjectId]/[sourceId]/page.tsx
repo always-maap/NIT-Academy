@@ -37,7 +37,11 @@ export default function Source({ params: { subjectId, sourceId } }: Props) {
           <RxDownload strokeWidth={1} />
         </a>
       </div>
-      {source!.type === "note" ? (
+      {source!.type === "etc" ? (
+        <h2 className="w-full h-4/5 flex justify-center items-center border text-2xl">
+          محتوا قابل نمایش نیست. دانلود کنید.
+        </h2>
+      ) : source!.type === "note" ? (
         <object
           className="w-full h-4/5"
           data={source!.url}

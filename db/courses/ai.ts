@@ -5,6 +5,7 @@ export const ai: Course = {
     fa: "هوش مصنوعی",
     en: "ai",
   },
+  callout: "کیفیت صدا پایین است. قبل از پخش کمی صدا را کم کنید!",
   sources: [
     {
       id: "1",

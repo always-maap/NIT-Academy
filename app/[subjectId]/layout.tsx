@@ -4,6 +4,7 @@ import { courses } from "@/db/courses";
 import Link from "next/link";
 import NoSubject from "./NoSubject";
 import Source from "./Source";
+import Callout from "@/components/ui/Callout";
 
 export async function generateStaticParams() {
   const courseList = Object.keys(courses);
@@ -30,6 +31,7 @@ export default function SubjectLayout({
 
   return (
     <Container>
+      {course.callout && <Callout>{course.callout}</Callout>}
       <div className="flex flex-col-reverse xl:flex-row justify-between gap-8 my-4">
         <ScrollArea className="xl:h-[80vh] shrink-0">
           <div className="flex flex-col xl:w-[275px] w-full rounded bg-black">

@@ -5,6 +5,7 @@ export const linearAlgebra: Course = {
     fa: "جبر خطی",
     en: "linear-algebra",
   },
+  callout: "کیفیت صدا پایین است. قبل از پخش کمی صدا را کم کنید!",
   sources: [
     {
       id: "0-note",

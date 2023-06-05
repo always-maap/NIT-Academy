@@ -3,6 +3,7 @@ export type Course = {
     fa: string;
     en: string;
   };
+  callout?: string;
   sources: {
     id: string;
     title: string;

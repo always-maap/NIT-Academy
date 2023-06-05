@@ -5,6 +5,8 @@ export const internship: Course = {
     fa: "کارآموزی",
     en: "internship",
   },
+  callout:
+    "در مورد معتبر بودن اطلاعات از مجمع علمی کامپیوتر و استاد درس تحقیق کنید!",
   sources: [
     {
       id: "intern",

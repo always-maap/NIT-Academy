@@ -12,7 +12,7 @@ export default function Home() {
           {courseList.map((category) => (
             <div key={category.title}>
               <h2 className="my-6 text-2xl font-extrabold">{category.title}</h2>
-              <ScrollArea className="lg:h-[80vh] rounded">
+              <ScrollArea className="lg:h-[78vh] rounded">
                 {category.subjects.map((subject) => (
                   <Link key={subject.title} href={subject.slug}>
                     <Item variant={category.variant as any}  available={subject.slug !== ""}>

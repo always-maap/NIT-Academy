@@ -1,10 +1,11 @@
 import clsx from "clsx";
 
-type Variants = "green" | "blue" | "red" | "orange";
+type Variants = "green" | "blue" | "red" | "orange" | "white";
 
 type Props = {
   children: any;
   variant: Variants;
+  available: boolean;
 };
 
 export default function Item(props: Props) {
@@ -13,6 +14,7 @@ export default function Item(props: Props) {
     blue: "bg-[#51adef]",
     red: "bg-[#ef5151]",
     orange: "bg-[#ffb343]",
+    white: "bg-[#ecf3f9]",
   };
 
   const shadowVariants = {
@@ -20,6 +22,7 @@ export default function Item(props: Props) {
     blue: "shadow-[8px_0_0_0_#2c5776]",
     red: "shadow-[8px_0_0_0_#c62121]",
     orange: "shadow-[8px_0_0_0_#ff9800]",
+    white: "shadow-[8px_0_0_0_#e5e5e5]",
   };
 
   return (
@@ -28,7 +31,7 @@ export default function Item(props: Props) {
       <div
         className={clsx(
           "w-[30px] h-full rounded-l-lg mr-3",
-          colorVariants[props.variant],
+          colorVariants[props.available ? props.variant : "white"],
           shadowVariants[props.variant]
         )}
       />

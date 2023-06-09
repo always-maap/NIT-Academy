@@ -74,7 +74,7 @@ export const main = {
     },
     {
       title: "آزمایشگاه مدارهای منطقی",
-      slug: "",
+      slug: "/logic-circuit-lab/0",
     },
     {
       title: "اصول طراحی کامپایلر",

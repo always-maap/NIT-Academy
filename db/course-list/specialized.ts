@@ -16,7 +16,7 @@ export const specialized = {
     },
     {
       title: "آزمایشگاه پایگاه داده",
-      slug: "",
+      slug: "/database-lab/1-1",
     },
     {
       title: "آزمایشگاه مهندسی نرم افزار",

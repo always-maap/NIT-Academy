@@ -30,7 +30,8 @@ import { signalsAndSystems } from "./signals-and-systems";
 import { informationRetrieval } from "./information-retrieval";
 import { networkLab } from "./network-lab";
 import { internship } from "./internship";
-import { logicCircuitLab } from "./ logic-circuit-lab";
+import { logicCircuitLab } from "./logic-circuit-lab";
+import { databaseLab } from "./database-lab";
 
 export const courses: Record<string, Course> = {
   // basic
@@ -53,6 +54,7 @@ export const courses: Record<string, Course> = {
   "linear-algebra": linearAlgebra,
   internship: internship,
   "logic-circuit-lab": logicCircuitLab,
+  "database-lab": databaseLab,
 
   // specialized
   "signals-and-systems": signalsAndSystems,

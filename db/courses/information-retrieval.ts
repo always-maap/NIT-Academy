@@ -5,6 +5,8 @@ export const informationRetrieval: Course = {
     fa: "مبانی بازیابی اطلاعات",
     en: "information-retrieval",
   },
+  callout:
+    "این درس برای اولین بار به صورت حضوری در مقطع کارشناسی ارائه شده است.",
   sources: [
     {
       id: "0",
@@ -65,6 +67,18 @@ export const informationRetrieval: Course = {
       title: "اسلاید tclass-vspace",
       type: "note",
       url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/information-retrieval/9.pdf",
+    },
+    {
+      id: "10",
+      title: "اسلاید clustering",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/information-retrieval/10.pdf",
+    },
+    {
+      id: "1-book",
+      title: "کتاب مرجع درس",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/information-retrieval/1-book.pdf",
     },
   ],
 };

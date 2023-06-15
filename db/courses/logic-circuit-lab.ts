@@ -15,13 +15,13 @@ export const logicCircuitLab: Course = {
     {
       id: "1",
       title: "آموزش آزمایشگاه مدار",
-      type: "note",
+      type: "video",
       url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/logic-circuit-lab/1.mp4",
     },
     {
       id: "2",
       title: "آموزش وریلاگ",
-      type: "note",
+      type: "video",
       url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/logic-circuit-lab/2.mp4",
     },
   ],

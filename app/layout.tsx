@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: TITLE,
-    description: "",
+    description: DESCRIPTION,
     url: "https://nitacademy.ir",
     siteName: TITLE,
     images: [OG],

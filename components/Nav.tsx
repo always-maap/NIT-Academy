@@ -13,6 +13,7 @@ export default function Nav() {
               height={50}
               src="nitacademy.ir/logo.png"
               alt="logo"
+              unoptimized
             />
           </Link>
         </ul>

@@ -11,7 +11,7 @@ export default function Nav() {
             <Image
               width={40}
               height={50}
-              src="nitacademy.ir/logo.png"
+              src="https://nitacademy.ir/logo.png"
               alt="logo"
               unoptimized
             />

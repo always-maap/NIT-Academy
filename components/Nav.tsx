@@ -8,7 +8,12 @@ export default function Nav() {
       <Container>
         <ul className="flex justify-center items-center py-3 text-gray-200 gap-2">
           <Link href="/">
-            <Image width={40} height={50} src="/logo.png" alt="logo" />
+            <Image
+              width={40}
+              height={50}
+              src="nitacademy.ir/logo.png"
+              alt="logo"
+            />
           </Link>
         </ul>
       </Container>

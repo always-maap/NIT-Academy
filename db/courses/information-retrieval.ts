@@ -6,7 +6,7 @@ export const informationRetrieval: Course = {
     en: "information-retrieval",
   },
   callout:
-    "این درس برای اولین بار به صورت حضوری در مقطع کارشناسی ارائه شده است.",
+    "این درس در مقطع کارشناسی برای اولین بار به صورت حضوری ارائه شده است.",
   sources: [
     {
       id: "0",

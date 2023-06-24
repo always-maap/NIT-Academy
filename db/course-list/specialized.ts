@@ -27,6 +27,10 @@ export const specialized = {
       slug: "/information-retrieval/0",
     },
     {
+      title: "مبانی داده کاوی",
+      slug: "/data-mining/1-slide",
+    },
+    {
       title: "برنامه نویسی وب",
       slug: "",
     },

@@ -7,6 +7,42 @@ export const network: Course = {
   },
   sources: [
     {
+      id: "0-book",
+      title: "کتاب مرجع درس",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/0-book.pdf",
+    },
+    {
+      id: "0-slide",
+      title: "اسلاید فصل صفرم: history",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/0-slide.pdf",
+    },
+    {
+      id: "1-slide",
+      title: "اسلاید فصل اول: introduction",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/1-slide.pdf",
+    },
+    {
+      id: "2-slide",
+      title: "اسلاید فصل دوم: application",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/2-slide.pdf",
+    },
+    {
+      id: "3-slide",
+      title: "اسلاید فصل سوم: transport",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/3-slide.pdf",
+    },
+    {
+      id: "4-slide",
+      title: "اسلاید فصل چهارم: network",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/network/4-slide.pdf",
+    },
+    {
       id: "1",
       title: "جلسه یکم - Presentation",
       type: "video",

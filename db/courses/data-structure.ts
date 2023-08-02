@@ -7,6 +7,72 @@ export const dataStructure: Course = {
   },
   sources: [
     {
+      id: "1-slide",
+      title: "اسلاید فصل اول",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/1-slide.pdf",
+    },
+    {
+      id: "2-slide",
+      title: "اسلاید فصل دوم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/2-slide.pdf",
+    },
+    {
+      id: "3-slide",
+      title: "اسلاید فصل سوم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/3-slide.pdf",
+    },
+    {
+      id: "4-slide",
+      title: "اسلاید فصل چهارم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/4-slide.pdf",
+    },
+    {
+      id: "5-slide",
+      title: "اسلاید فصل پنجم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/5-slide.pdf",
+    },
+    {
+      id: "6-slide",
+      title: "اسلاید فصل ششم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/6-slide.pdf",
+    },
+    {
+      id: "7-slide",
+      title: "اسلاید فصل هفتم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/7-slide.pdf",
+    },
+    {
+      id: "8-slide",
+      title: "اسلاید فصل هشتم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/8-slide.pdf",
+    },
+    {
+      id: "9-slide",
+      title: "اسلاید فصل نهم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/9-slide.pdf",
+    },
+    {
+      id: "10-slide",
+      title: "اسلاید فصل دهم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/10-slide.pdf",
+    },
+    {
+      id: "11-slide",
+      title: "اسلاید فصل یازدهم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/data-structure/11-slide.pdf",
+    },
+    {
       id: "1",
       title: "جلسه یکم",
       type: "video",

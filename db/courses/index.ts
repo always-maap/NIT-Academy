@@ -33,12 +33,14 @@ import { internship } from "./internship";
 import { logicCircuitLab } from "./logic-circuit-lab";
 import { databaseLab } from "./database-lab";
 import { dataMining } from "./data-mining";
+import { computerIntroduction } from "./computer-introduction";
 
 export const courses: Record<string, Course> = {
   // basic
   "physics-2": physics2,
   "differential-equations": differentialEquations,
   probability: probability,
+  "computer-introduction": computerIntroduction,
 
   // main
   "data-structure": dataStructure,

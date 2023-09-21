@@ -32,7 +32,7 @@ export const basic = {
     },
     {
       title: "آشنایی با مهندسی کامپیوتر",
-      slug: "",
+      slug: "/computer-introduction/1",
     },
   ],
 };

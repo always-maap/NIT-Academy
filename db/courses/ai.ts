@@ -8,6 +8,60 @@ export const ai: Course = {
   callout: "کیفیت صدا پایین است. قبل از پخش کمی صدا را کم کنید!",
   sources: [
     {
+      id: "1-slide",
+      title: "اسلاید فصل اول",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/1-slide.pdf",
+    },
+    {
+      id: "2-slide",
+      title: "اسلاید فصل دوم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/2-slide.pdf",
+    },
+    {
+      id: "3-slide",
+      title: "اسلاید فصل سوم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/3-slide.pdf",
+    },
+    {
+      id: "4-slide",
+      title: "اسلاید فصل چهارم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/4-slide.pdf",
+    },
+    {
+      id: "5-slide",
+      title: "اسلاید فصل پنجم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/5-slide.pdf",
+    },
+    {
+      id: "6-slide",
+      title: "اسلاید فصل ششم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/6-slide.pdf",
+    },
+    {
+      id: "7-slide",
+      title: "اسلاید فصل هفتم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/7-slide.pdf",
+    },
+    {
+      id: "8-slide",
+      title: "اسلاید فصل هشتم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/8-slide.pdf",
+    },
+    {
+      id: "9-slide",
+      title: "اسلاید فصل نهم",
+      type: "note",
+      url: "https://nitacademy.s3.ir-thr-at1.arvanstorage.ir/ai/9-slide.pdf",
+    },
+    {
       id: "1",
       title: "جلسه یکم",
       type: "video",

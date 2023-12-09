@@ -6,8 +6,6 @@ import NoSubject from "./NoSubject";
 import Source from "./Source";
 import Callout from "@/components/ui/Callout";
 
-export const runtime = "edge";
-
 export async function generateStaticParams() {
   const courseList = Object.keys(courses);
 

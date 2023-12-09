@@ -5,8 +5,6 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
-export const runtime = "edge";
-
 const yekanBakh = localFont({
   src: [
     {

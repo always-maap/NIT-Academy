@@ -1,6 +1,8 @@
 import { courses } from "@/db/courses";
 import { RxDownload } from "react-icons/rx";
 
+export const runtime = "edge";
+
 export async function generateStaticParams({
   params: { subjectId },
 }: {

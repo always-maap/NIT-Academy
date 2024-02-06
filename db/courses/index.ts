@@ -34,6 +34,7 @@ import { logicCircuitLab } from "./logic-circuit-lab";
 import { databaseLab } from "./database-lab";
 import { dataMining } from "./data-mining";
 import { computerIntroduction } from "./computer-introduction";
+import { parallelProcessing } from "./parallel-processing";
 
 export const courses: Record<string, Course> = {
   // basic
@@ -64,6 +65,7 @@ export const courses: Record<string, Course> = {
   "language-design": languageDesign,
   "information-retrieval": informationRetrieval,
   "data-mining": dataMining,
+  "parallel-processing": parallelProcessing,
 
   // general
   "persian-literature": persianLiterature,

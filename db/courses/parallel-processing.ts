@@ -1,9 +1,9 @@
 import { Course } from "@/types/Course";
 
-export const osLab: Course = {
+export const parallelProcessing: Course = {
   title: {
-    fa: "آزمایشگاه سیستم های عامل",
-    en: "os-lab",
+    fa: "پردازش موازی",
+    en: "parallel-processing",
   },
   callout:
     "این درس در مقطع کارشناسی ارشد برای اولین بار به صورت حضوری ارائه شده است ",

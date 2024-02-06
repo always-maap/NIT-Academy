@@ -31,6 +31,10 @@ export const specialized = {
       slug: "/data-mining/1-slide",
     },
     {
+      title: "پردازش موازی(کارشناسی ارشد)",
+      slug: "/parallel-processing/1-note",
+    },
+    {
       title: "برنامه نویسی وب",
       slug: "",
     },
